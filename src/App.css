@@ -849,8 +849,8 @@ section {
 }
 
 .module-card-footer {
-  margin-top: 1.25rem;
-  padding-top: 1rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
   border-top: 1px solid rgba(148, 163, 184, 0.25);
   display: flex;
   justify-content: space-between;
