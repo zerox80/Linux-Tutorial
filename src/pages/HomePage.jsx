@@ -14,7 +14,6 @@ import {
 
 const levelOptions = ['Alle', ...new Set(modules.map((module) => module.level))];
 const focusLookup = Object.fromEntries(focusModes.map((mode) => [mode.id, new Set(mode.includes)]));
-const focusLabelMap = Object.fromEntries(focusModes.map((mode) => [mode.id, mode.label]));
 const totalModuleMinutes = modules.reduce((total, module) => total + module.estimated, 0);
 const totalCommandCount = modules.reduce((total, module) => total + module.commands.length, 0);
 const totalMissionCount = modules.reduce((total, module) => total + module.missions.length, 0);
